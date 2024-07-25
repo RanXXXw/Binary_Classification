@@ -1,0 +1,16 @@
+tensorboard –-logdir runs
+
+
+        # # Terzo strato convoluzionale
+        # self.conv3 = nn.Conv2d(32, 64, kernel_size=3, padding=1)
+        # self.relu3 = nn.ReLU()
+        # self.pool3 = nn.MaxPool2d(kernel_size=2, stride=2)
+
+        # # Strato completamente connesso
+        # self.fc1 = nn.Linear(64 * 32 * 32, 128)  # L'output dei conv è 32x32 dopo 3 pooling
+        # self.relu4 = nn.ReLU()
+        # self.fc2 = nn.Linear(128, 2)  
+
+        # x = x.view(-1, 64 * 32 * 32)
+
+        # x = self.relu4(self.fc1(x))
